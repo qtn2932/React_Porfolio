@@ -1,0 +1,29 @@
+.top-portion{
+    background-image: url('../assets/pexels-juan-733475.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.landing-page-container{
+    color: white;
+}
+.navigation-container{
+    border:red solid 1px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    width: 60%;
+
+}
+.content-container{
+    border: purple solid 2px;
+    width: 100%;
+}
