@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Typical from 'react-typical'
+import { SocialIcon } from 'react-social-icons'
 import './LandingPage.css'
 class LandingPage extends Component {
   render () {
@@ -15,14 +17,28 @@ class LandingPage extends Component {
             </nav>
           </div>
           <div className='content-container'>
-            <h1>I'm Quan Nguyen</h1>
-            <h3>I'm a full stack developer with a passion for lifelong learning</h3>
-            <p>Icons goes here</p>
+            <h1>Hi, I'm Quan Nguyen</h1>
+            <p>I'm a </p>
+            <Typical
+              loop={Infinity}
+              steps={[
+                'Full-Stack Developer 💻',
+                1000,
+                'Lifelong Learner 📚',
+                1000,
+                'Open Sourcer ✔',
+                1000
+              ]}
+            />
+            <div className='icons-container'>
+              <SocialIcon url='https://github.com/qtn2932' />
+              <SocialIcon url='https://www.linkedin.com/in/quan-nguyen-60623b141/' />
+              <SocialIcon url='mailto:quan.nguyen199712@gmail.com' network='email' />
+            </div>
           </div>
         </div>
         <div className='bottom-portion'>
             somemore text here
-
         </div>
       </div>
     )
