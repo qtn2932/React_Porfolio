@@ -3,7 +3,9 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .landing-page-container{
     color: white;
@@ -12,8 +14,8 @@
     width:100%;
     display: flex;
     justify-content: center;
-    height: 5%;
     align-items: center;
+    margin-top: 2%;
 }
 .nav-bar{
     display: flex;
@@ -34,7 +36,6 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 70%;
 }
 .content-container h1,p{
     width: 100%;
@@ -45,4 +46,15 @@
     width:20%;
     display: flex;
     justify-content: space-between;
+}
+.scroll-icon-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.scroll-icon:hover{
+    width:2.5%;
+    background-color: lightblue;
+    border-radius: 50%;
+    height:auto
 }

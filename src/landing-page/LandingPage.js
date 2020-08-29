@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Typical from 'react-typical'
 import { SocialIcon } from 'react-social-icons'
+import { FaAngleDown } from 'react-icons/fa'
 import './LandingPage.css'
 class LandingPage extends Component {
   render () {
@@ -36,9 +37,9 @@ class LandingPage extends Component {
               <SocialIcon url='mailto:quan.nguyen199712@gmail.com' network='email' />
             </div>
           </div>
-        </div>
-        <div className='bottom-portion'>
-            somemore text here
+          <div className='scroll-icon-container'>
+            <FaAngleDown className='scroll-icon' />
+          </div>
         </div>
       </div>
     )
